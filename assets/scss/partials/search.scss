@@ -1,0 +1,23 @@
+@import "../variables/colors";
+@import "../variables/typography";
+
+.search-wrapper {
+    form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }   
+    button {
+        display: inline-block;
+        border: none;
+        background-color: transparent;
+    }
+    input {
+        font-family: $t__mono;
+        font-weight: bold;
+        font-size: (14 / 16) * 1rem;
+        width: 100%;
+        border: none;
+        border-bottom: 2px solid $c__dark-gray;
+    }
+}

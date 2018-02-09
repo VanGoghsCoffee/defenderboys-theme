@@ -1,0 +1,27 @@
+.wrapper {
+    margin: 0 80px;
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    grid-gap: 20px;
+  }
+
+.wrapper > * {
+    grid-column: col-start / span 12;
+}
+
+@media (min-width: 500px) {
+    .content {
+        grid-column: col-start / span 12;
+    } 
+
+    .nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 700px) {
+    .article-header {
+        grid-column: col-start / span 5;
+    }
+}

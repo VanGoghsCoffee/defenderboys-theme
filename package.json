@@ -1,0 +1,20 @@
+{
+  "name": "defenderboys",
+  "description": "Used for the defenderboys trip from cape town to munich in 2018",
+  "version": "0.0.1",
+  "engines": {
+    "ghost": ">=1.0.0"
+  },
+  "license": "MIT",
+  "author": {
+    "email": "david.rochholz@googlemail.com"
+  },
+  "config": {
+    "posts_per_page": 5
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  }
+}
